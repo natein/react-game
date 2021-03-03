@@ -1,0 +1,29 @@
+.stats {
+  width: 350px;
+  background-color: var(--accent-color-light);
+}
+
+.stats_caption {
+  background-color: var(--accent-color-contrast);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--header-footer-text-color);
+}
+
+.stats_content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.stats_content .modal_button {
+  margin-top: 20px;
+}

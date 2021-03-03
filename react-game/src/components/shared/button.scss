@@ -1,0 +1,25 @@
+.menu_button {
+  cursor: pointer;
+  padding: 10px;
+  background: transparent;
+  color: var(--header-footer-text-color);
+  border: none;
+  outline: none;
+}
+
+.menu_button:hover {
+  color: var(--app-background-color);
+}
+
+.modal_button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--accent-color-dark);
+  color: var(--header-footer-text-color);
+  border: none;
+  outline: none;
+}
+
+.modal_button:hover {
+  background-color: var(--accent-color-middle);
+}

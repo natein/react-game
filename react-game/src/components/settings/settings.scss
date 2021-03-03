@@ -1,0 +1,35 @@
+input[type='range'] {
+  width: 150px;
+}
+
+.settings {
+  width: 350px;
+  background-color: var(--accent-color-light);
+}
+
+.settings_caption {
+  background-color: var(--accent-color-contrast);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--header-footer-text-color);
+}
+
+.settings_content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
